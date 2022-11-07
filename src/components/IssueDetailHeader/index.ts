@@ -1,0 +1,1 @@
+export { IssueDetailHeader } from './IssueDetailHeader'

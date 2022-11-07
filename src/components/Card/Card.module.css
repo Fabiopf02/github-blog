@@ -1,0 +1,54 @@
+.link {
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 10px;
+  background: var(--black-500);
+  width: max-content;
+  max-width: 26rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: .15s;
+  gap: 1rem;
+}
+
+.card:hover {
+  border: 1px solid var(--black-300);
+}
+
+.card p {
+  margin: 0;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.cardTitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: var(--white);
+}
+
+.cardTime {
+  color: var(--black-200);
+  font-size: 0.875rem;
+  font-weight: 400;
+  min-width: max-content;
+}
+
+.cardContent {
+  color: var(--gray-200);
+  font-size: 1rem;
+  line-height: 160%;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

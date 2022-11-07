@@ -1,0 +1,29 @@
+.searchContainer {
+  margin: 2rem 0;
+  padding: 1.5rem 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background: var(--black-800);
+}
+
+.searchContainer form, .searchContainer form input {
+  width: 100%;
+}
+
+.searchRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.searchResponse {
+  font-size: 0.875rem;
+  color: var(--black-200);
+}
+
+.searchLabel {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--gray-100);
+}

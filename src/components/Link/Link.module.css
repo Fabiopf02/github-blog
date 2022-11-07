@@ -1,0 +1,14 @@
+.link {
+  display: flex;
+  gap: 0.5rem;
+  max-width: max-content;
+  color: var(--blue);
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--blue);
+}

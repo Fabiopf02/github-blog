@@ -1,0 +1,22 @@
+.issueContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.issueContent {
+  padding: 0.5rem 2rem;
+  color: var(--gray-200);
+  background: #07142299;
+  border-radius: 8px;
+}
+
+.issueContent a {
+  color: var(--blue);
+}
+
+.issueContent img {
+  width: 100%;
+}
